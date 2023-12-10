@@ -30,7 +30,6 @@ th,
 td {
   padding: 0.5rem;
   text-align: left;
-  /* font-size: 1rem; */
 }
 tr {
   border: 1px solid #ddd;
@@ -45,12 +44,10 @@ td:nth-child(2) span {
   font-size: 1.3em;
 }
 
-/* For alternating row colors */
 tbody tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-/* Media query for responsive table */
 @media screen and (max-width: 600px) {
   th,
   td {
@@ -58,23 +55,14 @@ tbody tr:nth-child(even) {
     width: 100%;
   }
 
-  /* Hide table header */
   thead {
     display: none;
   }
 
-  /* Adjust padding for better mobile view */
   td {
     padding: 4px;
   }
   td:nth-child(2) {
     justify-content: center;
   }
-
-  /* Add labels for better mobile view */
-  /* td:before {
-    content: attr(data-label);
-    float: left;
-    font-weight: bold;
-  } */
 }

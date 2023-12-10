@@ -5,7 +5,7 @@ import { Heading } from "@chakra-ui/react";
 function App() {
   return (
     <>
-      <Heading pb="10">Todo List</Heading>
+      <Heading pb="10">Todo App</Heading>
       <AddTask />
       <TodoList />
     </>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Button,
   FormControl,
@@ -13,7 +13,6 @@ import {
   ModalHeader,
   ModalOverlay,
   Select,
-  useDisclosure,
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { addTodo, updateTodo } from "../Redux/todoSlice";

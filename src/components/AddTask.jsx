@@ -1,22 +1,7 @@
-import {
-  Button,
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
-  Input,
-  Modal,
-  ModalBody,
-  ModalCloseButton,
-  ModalContent,
-  ModalFooter,
-  ModalHeader,
-  ModalOverlay,
-  Select,
-  useDisclosure,
-} from "@chakra-ui/react";
-import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { addTodo, updateFilter } from "../Redux/todoSlice";
+import { Button, useDisclosure } from "@chakra-ui/react";
+import React from "react";
+import { useDispatch } from "react-redux";
+import { updateFilter } from "../Redux/todoSlice";
 import { MemoizedInputModal } from "./InputModal";
 
 export const AddTask = () => {

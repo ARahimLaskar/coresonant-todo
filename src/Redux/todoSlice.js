@@ -10,7 +10,7 @@ const initialState = {
 export const fetchData = createAsyncThunk("api/fetchData", async () => {
   try {
     const res = await axios.get(
-      "https://jsonplaceholder.typicode.com/users/1/tods"
+      "https://jsonplaceholder.typicode.com/users/1/todos"
     );
     const fetchData = res.data;
     localStorage.setItem("todo", JSON.stringify(fetchData));
@@ -69,7 +69,7 @@ const todoReducer = createSlice({
     });
     builder.addCase(fetchData.fulfilled, (state, action) => {
       state.status = "succeeded";
-      state.data = action.payload; // Set the fetched data to the state
+      state.data = action.payload;
     });
     builder.addCase(fetchData.rejected, (state) => {
       state.status = "failed";

@@ -38,7 +38,7 @@ export const TodoList = () => {
 
   const filteredData = reversedData.filter((todo) => {
     if (filterState === "all") {
-      return true; // Show all todos if the filter is set to "all"
+      return true;
     } else if (filterState === "complete") {
       return todo.completed;
     } else {

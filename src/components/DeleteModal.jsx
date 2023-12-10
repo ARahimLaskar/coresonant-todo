@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import {
   AlertDialog,
   AlertDialogBody,
@@ -6,8 +6,6 @@ import {
   AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay,
-  AlertDialogCloseButton,
-  useDisclosure,
   Button,
 } from "@chakra-ui/react";
 import { useDispatch } from "react-redux";

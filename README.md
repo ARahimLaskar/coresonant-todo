@@ -49,3 +49,7 @@
 <li>Start the development server with `npm run dev`.</li>
 <li>Access the application via the provided localhost address.</li>
 </ul>
+
+## deployed link:
+
+https://arl-coresonant-todo.netlify.app/

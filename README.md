@@ -50,6 +50,6 @@
 <li>Access the application via the provided localhost address.</li>
 </ul>
 
-## deployed link:
+## Deployed link:
 
 https://arl-coresonant-todo.netlify.app/

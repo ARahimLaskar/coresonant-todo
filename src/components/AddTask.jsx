@@ -16,14 +16,14 @@ export const AddTask = () => {
   return (
     <>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <Button onClick={onOpen} colorScheme="teal">
+        <Button onClick={onOpen} colorScheme="blue">
           Add Task &nbsp;<span className="material-symbols-outlined">add</span>{" "}
         </Button>
         <select
           onChange={handleFilter}
           style={{
             padding: "0 0.5em",
-            border: "1px solid teal",
+            border: "1px solid blue",
             borderRadius: "6px",
             outline: "none",
           }}
